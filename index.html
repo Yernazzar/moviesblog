@@ -1,0 +1,181 @@
+<!DOCTYPE html> 
+<html lang="en"> 
+<head> 
+  <meta charset="UTF-8"> 
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"> 
+  <title>Film Website</title> 
+  <link rel="stylesheet" href="css1.css"> 
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.1/dist/css/bootstrap.min.css" rel="stylesheet" 
+    integrity="sha384-iYQeCzEYFbKjA/T2uDLTpkwGzCiq6soy8tYaI1GyVh/UjpbCx/TYkiZhlZB6+fzT" crossorigin="anonymous"> 
+</head> 
+<body> 
+  <nav class="navbar navbar-expand-lg navbar-dark bg-dark"> 
+    <div class="container"> 
+      <a class="navbar-brand" href="index.html">Film Website</a> 
+      <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation"> 
+        <span class="navbar-toggler-icon"></span> 
+      </button> 
+      <div class="collapse navbar-collapse" id="navbarNav"> 
+        <ul class="navbar-nav ml-auto"> 
+          <li class="nav-item active"> 
+            <a class="nav-link" href="index.html">Home</a> 
+          </li> 
+          <li class="nav-item"> 
+            <a class="nav-link" href="#">Movies</a> 
+          </li> 
+          <li class="nav-item"> 
+            <a class="nav-link" href="#">TV Shows</a> 
+          </li> 
+          <li class="nav-item"> 
+            <a class="nav-link" href="#">Top Rated</a> 
+          </li> 
+          <li class="nav-item"> 
+            <a class="nav-link" href="#">Upcoming</a> 
+          </li> 
+          <li class="nav-item" id="search-item">
+            <a class="nav-link" href="#">Search</a>
+          </li>          
+        </ul> 
+      </div> 
+    </div> 
+  </nav> 
+  <div class="search-container">
+    <input type="text" id="search-input" placeholder="Search...">
+    <button id="search-button">Search</button>
+  </div>
+  
+  <div class="container my-5"> 
+    
+    <h1 class="text-center mb-4">Upcoming Movies</h1> 
+    <section class="slider">
+      <button class="slider__control prev"><i class="fa-solid fa-chevron-left"></i></button>
+      <button class="slider__control next"><i class="fa-solid fa-chevron-right"></i></button>
+      <div class="slider__container" data-multislide="false" data-step="4">
+        <div class="slider__item">
+          <img src="https://m.media-amazon.com/images/M/MV5BMTYxNTgzMTY3M15BMl5BanBnXkFtZTcwNDMzNDI5OQ@@._V1_.jpg" alt="" width="100%">
+        </div>
+        <div class="slider__item">
+            <img src="https://m.media-amazon.com/images/M/MV5BNTBlNGFiMTgtMjFhNy00OTZlLWI2MmUtNmY3MWRmMmMzNTQwXkEyXkFqcGdeQXVyMTE0MzQwMjgz._V1_SY300_CR1" alt="" width="100%">
+        </div>
+        <div class="slider__item">
+            <img src="https://pbs.twimg.com/media/FfMXyhtX0AY43gw?format=jpg&name=4096x4096" alt="" width="100%">
+        </div>
+        <div class="slider__item">
+          <img src="https://storage.googleapis.com/eventive-static/9fd9ae1b8fb31605d211c17169e6ed8f.jpg" alt="" width="100%">
+        </div>
+        <div class="slider__item">
+          <img src="https://m.media-amazon.com/images/M/MV5BMzQwMjI2NTU3OF5BMl5BanBnXkFtZTgwMzUwOTc2MTE@._V1_.jpg" alt="" width="100%">
+        </div>
+        <div class="slider__item">
+          <img src="https://pbs.twimg.com/media/FVJUe8LUAAAOJ4Z?format=jpg&name=4096x4096" alt="" width="100%">
+        </div>
+        <div class="slider__item">
+          <img src="https://images4.imagebam.com/cb/3a/e3/MEI301T_o.jpg" alt="" width="100%">
+        </div>
+        <div class="slider__item">
+          <img src="https://picfiles.alphacoders.com/586/586038.jpg" alt="" width="100%">
+        </div>
+      </div>
+    </section>
+    <h1 class="text-center mb-4">Featured Categories</h1> 
+    <div class="row"> 
+      <div class="col-md-3"> 
+        <h2>Best Films</h2> 
+        <ul> 
+          <li><a href="index6.html"><img src="https://getwallpapers.com/wallpaper/full/d/b/6/802538-most-popular-the-shawshank-redemption-wallpapers-2800x2100-ipad-retina.jpg" alt="Shawshank Redemption"height="250" width="250"></a></li> 
+          <li><a href="index7.html"><img src="https://mobimg.b-cdn.net/v3/fetch/13/13a5447353a4ce71edc634049d0d117f.jpeg" alt="Forrest Gump" width="250" height="250"></a></li> 
+          <li><a href="index8.html"><img src="https://image.tmdb.org/t/p/original/ngAqxiBE6HEzhcA8tzOqNN75tHj.jpg" alt="Schindler's list" width="250" height="250"></a></li> 
+          <li><a href="index9.html"><img src="https://picfiles.alphacoders.com/109/109765.jpg" alt="Memento" width="250" height="250"></a></li> 
+          <li><a href="index10.html"><img src="https://avatars.mds.yandex.net/i?id=bd9650853367c537dff50a57d42c661861a8b07d-7545494-images-thumbs&n=13" alt="Fight Club" width="250" height="250"></a></li> 
+        </ul> 
+      </div> 
+      <div class="col-md-3"> 
+        <h2>Comedy</h2> 
+        <ul> 
+          <li><a href="index1.html"><img src="https://m.media-amazon.com/images/M/MV5BOGY0YmI2MjMtZWE2OC00NTJkLTg1MTYtYjJjZjBmMTVlZTZmXkEyXkFqcGdeQXVyMTYzMDM0NTU@._V1_.jpg" alt="Mask" width="250" height="250"></a></li> 
+          <li><a href="index2.html"> <img src="https://m.media-amazon.com/images/M/MV5BOGNjZTRlNDctNGI0Yi00YmFkLTljMmQtMjQ1ZjdiNmU5YTc0XkEyXkFqcGdeQXVyNTA4NzY1MzY@._V1_FMjpg_UX1000_.jpg" alt="Mr.bean" width="250" height="250"></a></li> 
+          <li><a href="index3.html"> <img src="https://sun6-22.userapi.com/s/v1/if1/-Q4ATqI3kNqn9bMXMB2gMyA8a1ksGFenc2x0CyO0vPPk3jcJUwsIHruttwmqdScDM4dNaOz-.jpg?size=1331x1331&quality=96&crop=51,0,1331,1331&ava=1" alt="Home Alone" width="250" height="250"></a></li> 
+          <li><a href="index4.html"><img src="https://i.ytimg.com/vi/4CWHEgVsut0/maxresdefault.jpg" alt="Ace Ventura" width="250" height="250"></a></li> 
+          <li><a href="index5.html"><img src="https://www.film.ru/sites/default/files/movies/posters/1610928-1454740.jpg" alt="Garfield" width="250" height="250"></a></li> 
+        </ul> 
+      </div> 
+      <div class="col-md-3"> 
+        <h2>Thriller</h2> 
+        <ul> 
+            <li><a href="project.html"><img  src="https://i.pinimg.com/originals/31/7c/ae/317cae609f716c424bd6ced5f7bf55e2.jpg" alt="Shutter Island" width="250"height="250"></a></li> 
+            <li><a href="project1.html"><img  src="https://i.pinimg.com/originals/6c/9f/0a/6c9f0ae689984e1b53a4a4add37d51b8.jpg" alt="The Departed" width="250" height="250"></a></li> 
+            <li><a href="project2.html"><img  src="https://i.pinimg.com/736x/50/fc/3e/50fc3eaaf3a037c56ea3420c983417b1--movie-theater-poster-art.jpg" alt="Gone Girl" width="250" height="250"></a></li> 
+            <li><a href="project3.html"><img  src="https://images-na.ssl-images-amazon.com/images/S/pv-target-images/74882a4be967d13b2ae89728a4841f0763fb8e32fdeab67c080432c572af146f._RI_V_TTW_.jpg" alt="The Prestige" width="250" height="250"></a></li> 
+            <li><a href="project4.html"><img  src="https://i.pinimg.com/736x/35/c8/52/35c8521b01f5aad189ad16ee37f73a6b--seen--graphic-posters.jpg" alt="Seven" width="250" height="250"></a></li> 
+          </ul> 
+        </div> 
+        <div class="col-md-3"> 
+          <h2>Horror</h2> 
+          <ul> 
+            <li><a href="horror1.html"><img src="https://cdna.artstation.com/p/assets/images/images/007/018/070/medium/william-gray-it-2017-poster-in-1990-style.jpg?1503058179" alt="It" width="250" height="250"></a></li> 
+            <li><a href="horror2.html"><img src="https://i.ytimg.com/vi/ph1umRRFTNU/movieposter_en.jpg" alt="The Mist" width="250" height="250"></a></li> 
+            <li><a href="horror3.html"><img src="https://images.kinorium.com/movie/poster/2306548/w1500_50315687.jpg" alt="The Scream" width="250" height="250"></a></li> 
+            <li><a href="horror4.html"><img src="https://cdnb.artstation.com/p/assets/images/images/020/782/637/large/valentin-prados-annabelle-final-1.jpg?1569165061" alt="Annabel" width="250" height="250"></a></li> 
+            <li><a href="horror5.html"><img src="https://images.kinorium.com/movie/fanart/51006/w1500_44854953.jpg" alt="Psycho" width="250" height="250"></a></li> 
+          </ul> 
+        </div> 
+      </div> 
+       
+        </div> 
+        <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script> 
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script> 
+        <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script> 
+        <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script> 
+        <script src="https://maxcdn.bootstrapcdn.com/bootstrap/5.2.1/js/bootstrap.min.js" integrity="sha384-pzJES/0EUP/KNZeeuCn8aX3A0ZutMtfTC6Vb2LQ9GyHGhRpGELPsrzZT53rUzvsj" crossorigin="anonymous"></script> 
+        <script> 
+          $(document).ready(function() { 
+     $('.nav-link').on('click', function() { 
+       $('.nav-link').removeClass('active'); 
+       $(this).addClass('active'); 
+     }); 
+    
+     $('img').on('mouseover', function() { 
+       $(this).css('opacity', '0.7'); 
+     }); 
+    
+     $('img').on('mouseout', function() { 
+       $(this).css('opacity', '1'); 
+     }); 
+     $(document).on('keypress', function(event) { 
+       var keyPressed = event.which || event.keyCode; 
+       console.log('Key Pressed:', keyPressed); 
+       if (keyPressed === 13) { 
+       } 
+     }); 
+   }); 
+           </script>
+           <script src="script_index.js"></script>
+           <script>
+           $(document).ready(function() { 
+  $('#search-item').on('click', function() { 
+    $('.search-container').slideToggle(); 
+  }); 
+ 
+  $('#search-button').on('click', function() { 
+    var searchTerm = $('#search-input').val().toLowerCase(); 
+    var foundMovies = 0; 
+     
+    $('img').each(function() { 
+      var movieTitle = $(this).attr('alt').toLowerCase(); 
+       
+      if (movieTitle.includes(searchTerm)) { 
+        var moviePageURL = $(this).parent().attr('href'); 
+        window.location.href = moviePageURL; 
+        foundMovies++; 
+        return false;  
+      } 
+    }); 
+    if (foundMovies === 0) { 
+      alert("No such films."); 
+    } 
+  }); 
+});</script>  
+<script src="index.js"></script>
+
+      </body> 
+      </html>

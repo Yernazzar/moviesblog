@@ -1,0 +1,118 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Forrest Gump</title>
+  <link rel="stylesheet" href="style.css">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-rbsA2VBKQhggwzxH7pPCaAqO46MgnOM80zW1RWuH61DGLwZJEdK2Kadq2F9CUG65" crossorigin="anonymous">
+  <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.6/dist/umd/popper.min.js" integrity="sha384-oBqDVmMz9ATKxIep9tiCxS/Z9fNfEXiDAYTujMAeBAsjFuCZSmKbSSUnQlmh/jp3" crossorigin="anonymous"></script>
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/js/bootstrap.min.js" integrity="sha384-cuYeSxntonz0PPNlHhBs68uyIAVpIIOZZ5JqeqvYYIcEL727kskC66kF92t6Xl2V" crossorigin="anonymous"></script>  
+<script>
+  function redirectToYouTube() {
+  window.location.href = "https://www.youtube.com/watch?v=bLvqoHBptjg";
+}
+
+</script> 
+</head>
+<body>
+  <header>
+    <div class="container">
+      <div class="logo">
+        <a href="/index.html">Assigment1</a>
+      </div>
+      <nav>
+        <ul>
+          <li><a href="#">Movies</a></li>
+        </ul>
+      </nav>
+    </div>
+  </header>
+  <main>
+    <div class="vinyl-container">
+      <div id="vinyl" class="vinyl">
+        <img class="disc" src="https://diggers-public.s3.eu-west-3.amazonaws.com/projects/2b91345b-0b40-4bc3-8ae6-31c23406a8d8/only_vinyl.png" alt="Vinyl Record">
+      </div>
+      <audio id="audio" src="ost/Forrest Gump Soundtrack - Main Theme.mp3"></audio>
+    </div>    
+    <section class="film-info">
+      <div class="container">
+        <div class="film-poster">
+            <img src="https://mobimg.b-cdn.net/v3/fetch/13/13a5447353a4ce71edc634049d0d117f.jpeg" alt="Forrest Gump" width="600" height="600">
+        </div>
+        <div class="film-details">
+          <h1 class="film-title">Forrest Gump</h1>
+          <div class="film-rating">
+            <span class="rating-icon">&#9733;</span>
+            <span class="rating-value">8.9/10</span>
+          </div>
+          <p class="film-genres">Drama, Comedy, History</p>
+          <div class="accordion" id="accordionExample"> 
+            <div class="accordion-item"> 
+              <h2 class="accordion-header"> 
+                <button class="accordion-button" type="button" data-bs-toggle="collapse" data-bs-target="#collapseOne" aria-expanded="true" aria-controls="collapseOne"> 
+                  Details 
+                </button> 
+              </h2> 
+              <div id="collapseOne" class="accordion-collapse collapse show" data-bs-parent="#accordionExample"> 
+                <div class="accordion-body"> 
+                  Sitting at the bus stop, Forrest Gump — not very smart, but a kind and open guy — tells random people the story of his extraordinary life.
+                  Since he was very young, the guy suffered from a leg disease, the neighborhood boys teased him, but one day Forrest discovered his incredible ability to run. His childhood friend Jenny always supported and protected him, but soon their paths diverged.
+                </div> 
+                <ul>
+                  <li><strong>Director:</strong>Robert Zemeckis</li>
+                  <li><strong>Writer:</strong>Eric Roth</li>
+                  <li><strong>Stars:</strong>Tom Hanks • Robin Wright • Gary Sinise • Mykelti Williamson • Sally Field</li>
+                  <li><strong>Release Date:</strong>1994</li>
+                  <li><strong>Runtime:</strong> 142 min</li>
+                </ul>
+              </div> 
+            </div> 
+            </div> 
+      
+        </div>
+        <div class="centered-button">
+          <button class="trailer-button" onclick="redirectToYouTube()">Посмотреть трейлер</button>
+        </div>
+        <p></p>
+        <div id="carouselExampleIndicators" class="carousel slide">
+          <div class="carousel-indicators">
+            <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+            <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="1" aria-label="Slide 2"></button>
+            <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="2" aria-label="Slide 3"></button>
+          </div>
+          <div class="carousel-inner">
+            <div class="carousel-item active">
+              <img src="https://www.suggestingmovie.com/Movies/1208-lssi1.jpg" class="d-block w-100 carousel-img"  alt="..." height= 250px>
+            </div>
+            <div class="carousel-item">
+              <img src="https://wallup.net/wp-content/uploads/2019/07/24/169874-forrest-gump-comedy-drama.jpg" class="d-block carousel-img w-100"  alt="..." height= 250px>
+            </div>
+            <div class="carousel-item">
+              <img src="https://i1.wp.com/hurraakerkko.com/wp-content/uploads/2013/11/forrest-gump.jpg" class="d-block carousel-img w-100"  alt="..." height= 250px>
+            </div>
+          </div>
+          <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="prev">
+            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+            <span class="visually-hidden">Previous</span>
+          </button>
+          <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="next">
+            <span class="carousel-control-next-icon" aria-hidden="true"></span>
+            <span class="visually-hidden">Next</span>
+          </button>
+        </div>
+        </div>
+        
+      
+    </section>
+  </main>
+  <footer>
+    <div class="container">
+      <p>&copy; 2023 BDA-2208</p>
+    </div>
+  </footer>
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.0/jquery.min.js"></script>
+  <script src="js/app.js"></script>
+</body>
+</html>
